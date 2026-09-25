@@ -1,3 +1,22 @@
+---
+title: "Apache NiFi: Performance Guide"
+type: guide
+tags:
+  - apache-nifi
+  - data-logistics
+  - etl
+  - ingestion
+  - dataflow
+  - flowfile
+  - 04-performance-guide
+aliases:
+  - "NiFi Performance"
+  - "NiFi Tuning"
+  - "NiFi Back Pressure"
+layer: "Data Logistics & Ingestion"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache NiFi: Performance Tuning & Development Best Practices
 
 ## Table of Contents
@@ -384,3 +403,13 @@ grep -i "RejectedExecutionException" nifi-app.log  # Thread pool exhaustion
 8. **Prometheus JMX Exporter for NiFi:** https://github.com/prometheus/jmx_exporter
 9. **Flink + NiFi Integration Patterns:** https://nightlies.apache.org/flink/flink-docs-stable/docs/connectors/datastream/nifi/
 10. **NiFi Developer's Guide (Custom Processors):** https://nifi.apache.org/docs/nifi-docs/html/developer-guide.html
+
+---
+
+**Layer:** 🟢 Data Logistics & Ingestion  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache NiFi/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache Flink/01_Overview|Apache Flink]]

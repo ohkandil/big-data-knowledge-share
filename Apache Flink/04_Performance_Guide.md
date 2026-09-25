@@ -1,3 +1,21 @@
+---
+title: "Apache Flink: Performance Guide"
+type: guide
+tags:
+  - apache-flink
+  - stream-processing
+  - stateful-computation
+  - event-time
+  - watermarks
+  - 04-performance-guide
+aliases:
+  - "Flink Performance"
+  - "Flink Tuning"
+  - "Flink RocksDB Tuning"
+layer: "Stream Processing"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Flink: Performance Tuning & Development Best Practices
 
 ## Table of Contents
@@ -654,3 +672,16 @@ curl http://jobmanager:8081/jobs/<job-id>/checkpoints
 8. **Data Skew & Optimization:** [https://nightlies.apache.org/flink/flink-docs-stable/docs/learn-flink/streaming_analytics/](https://nightlies.apache.org/flink/flink-docs-stable/docs/learn-flink/streaming_analytics/)
 9. **Flink Forward Talks:** [https://flink-forward.org/](https://flink-forward.org/) (search for "performance" and "tuning")
 10. **Streaming Systems Book:** Akidau, T., Chernyak, S., & Lax, R. (2018). *Streaming Systems.* O'Reilly Media.
+
+
+---
+
+**Layer:** 🔴 Stream Processing  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Flink/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]] · [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

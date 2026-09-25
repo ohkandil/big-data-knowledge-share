@@ -1,3 +1,22 @@
+---
+title: "Trino: Performance Guide"
+type: guide
+tags:
+  - trino
+  - federated-query
+  - presto
+  - sql
+  - olap
+  - connector-spi
+  - 04-performance-guide
+aliases:
+  - "Trino Performance"
+  - "Trino Tuning"
+  - "Trino Cost-Based Optimizer"
+layer: "Federated Query Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # Trino: Performance Tuning & Production Optimization Guide
 
 ## Table of Contents
@@ -161,3 +180,14 @@ Prevent single runaway analytical queries from starving interactive executive da
 1. **Trino Tuning & Configuration:** [https://trino.io/docs/current/admin/properties.html](https://trino.io/docs/current/admin/properties.html)
 2. **Trino Resource Groups:** [https://trino.io/docs/current/admin/resource-groups.html](https://trino.io/docs/current/admin/resource-groups.html)
 3. **Trino Iceberg Performance Tuning:** [https://trino.io/docs/current/connector/iceberg.html#performance-tuning](https://trino.io/docs/current/connector/iceberg.html#performance-tuning)
+
+
+---
+
+**Layer:** 🔍 Federated Query Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Trino/03_Architecture|Architecture]]
+
+**Related technologies:** [[StarRocks/01_Overview|StarRocks]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Paimon/01_Overview|Apache Paimon]]

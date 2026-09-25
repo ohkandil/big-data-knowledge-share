@@ -1,3 +1,21 @@
+---
+title: "Apache Flink: Architecture"
+type: architecture
+tags:
+  - apache-flink
+  - stream-processing
+  - stateful-computation
+  - event-time
+  - watermarks
+  - 03-architecture
+aliases:
+  - "Flink Architecture"
+  - "Flink JobManager"
+  - "Flink TaskManager"
+layer: "Stream Processing"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Flink: Architecture & Deployment Topology
 
 ## Table of Contents
@@ -431,3 +449,15 @@ Each task slot runs one or more chains of operators in a single thread:
 6. **Deployment Guides:** [https://nightlies.apache.org/flink/flink-docs-stable/docs/deployment/](https://nightlies.apache.org/flink/flink-docs-stable/docs/deployment/)
 7. **The Flink Paper (2015):** Carbone, P., et al. *"Apache Flink™: Stream and Batch Processing in a Single Engine."* IEEE Data Engineering Bulletin, 38(4), 28–38.
 8. **Flink Forward Presentations:** [https://flink-forward.org/](https://flink-forward.org/) (search for architecture talks)
+
+---
+
+**Layer:** 🔴 Stream Processing  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Flink/02_Data_Guide|Data Guide]]  |  → [[Apache Flink/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]] · [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

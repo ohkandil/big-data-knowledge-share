@@ -1,3 +1,22 @@
+---
+title: "Apache Paimon: Data Guide"
+type: guide
+tags:
+  - apache-paimon
+  - table-format
+  - lsm-tree
+  - streaming-lakehouse
+  - cdc
+  - changelog
+  - 02-data-guide
+aliases:
+  - "Paimon Data Guide"
+  - "Paimon LSM"
+  - "Paimon Changelog"
+layer: "Streaming Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Paimon: Data Engine & Processing Mechanics
 
 ## Table of Contents
@@ -131,3 +150,16 @@ CREATE TABLE product_daily_stats (
 1. **Paimon Primary Key Tables:** [https://paimon.apache.org/docs/master/primary-key-table/overview/](https://paimon.apache.org/docs/master/primary-key-table/overview/)
 2. **Paimon Merge Engines:** [https://paimon.apache.org/docs/master/primary-key-table/merge-engine/](https://paimon.apache.org/docs/master/primary-key-table/merge-engine/)
 3. **Paimon Changelog Producers:** [https://paimon.apache.org/docs/master/primary-key-table/changelog-producer/](https://paimon.apache.org/docs/master/primary-key-table/changelog-producer/)
+
+
+---
+
+**Layer:** 🌊 Streaming Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Paimon/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache Paimon/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

@@ -1,3 +1,21 @@
+---
+title: "dbt (data build tool): Data Guide"
+type: guide
+tags:
+  - dbt
+  - sql-transformation
+  - data-modeling
+  - analytics-engineering
+  - dag
+  - 02-data-guide
+aliases:
+  - "dbt Data Guide"
+  - "dbt Models"
+  - "dbt Sources"
+layer: "SQL Transformation & Modeling"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # dbt (data build tool): Data Processing & Modeling Guide
 
 ## Table of Contents
@@ -278,3 +296,14 @@ Running `dbt docs generate` produces static web assets (`index.html`, `manifest.
 2. **Incremental Models Guide:** [https://docs.getdbt.com/docs/build/incremental-models](https://docs.getdbt.com/docs/build/incremental-models)
 3. **dbt Model Contracts & Governance:** [https://docs.getdbt.com/docs/collaborate/govern/model-contracts](https://docs.getdbt.com/docs/collaborate/govern/model-contracts)
 4. **dbt-utils Package:** [https://hub.getdbt.com/dbt-labs/dbt_utils/latest/](https://hub.getdbt.com/dbt-labs/dbt_utils/latest/)
+
+
+---
+
+**Layer:** 🔧 SQL Transformation & Modeling  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[dbt/01_Overview|Overview & Foundational Concepts]]  |  → [[dbt/03_Architecture|Architecture]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]

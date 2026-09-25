@@ -1,3 +1,21 @@
+---
+title: "StarRocks: Overview & Foundational Concepts"
+type: overview
+tags:
+  - starrocks
+  - olap
+  - vectorized
+  - real-time-analytics
+  - materialized-views
+  - simd
+  - 01-overview
+aliases:
+  - "StarRocks"
+  - "StarRocks Overview"
+layer: "Real-Time OLAP Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # StarRocks: Architectural Overview & Foundational Concepts
 
 ```
@@ -241,3 +259,16 @@ StarRocks features a dedicated **Primary Key Table Engine**:
 2. **StarRocks Architecture Overview:** [https://docs.starrocks.io/docs/architecture/architecture/](https://docs.starrocks.io/docs/architecture/architecture/)
 3. **StarRocks GitHub Repository:** [https://github.com/StarRocks/starrocks](https://github.com/StarRocks/starrocks)
 4. **Vectorized Query Engine Design:** [https://docs.starrocks.io/docs/architecture/vectorized-engine/](https://docs.starrocks.io/docs/architecture/vectorized-engine/)
+
+
+---
+
+**Layer:** ⭐ Real-Time OLAP Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[StarRocks/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

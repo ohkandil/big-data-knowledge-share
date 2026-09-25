@@ -169,3 +169,18 @@ Distributed under the **MIT License**. See `LICENSE` for details.
 *Authored by [Omar Kandil](https://www.linkedin.com/in/omarhkandil) — Data Engineer @ Orange Egypt*
 
 </div>
+
+---
+
+## 🗂️ Obsidian Vault Integration
+
+This repository is structured as an **[Obsidian](https://obsidian.md/) Personal Knowledge Management (PKM) Vault**. It leverages deep cross-linking, Maps of Content (MOCs), and structured frontmatter for rapid navigation and learning.
+
+### 🗺️ Navigating the Vault
+
+*   **[[00_Root_Streamhouse_MOC]]**: The central hub routing to all ecosystem domains.
+*   **MOCs/ (Maps of Content)**: Domain-specific indexes containing categorized deep-dives (e.g., `MOC_Lakehouse_Storage_and_Table_Formats`).
+*   **Concepts/**: Standalone atomic notes on distributed computing principles (e.g., `LSM_Trees_and_Compaction`, `Event_Time_and_Watermarking`) linked across various technologies.
+*   **Wikilinks**: Tech guides feature trailing navigation footers dynamically cross-linking related engines and theoretical concepts.
+
+**To view in Obsidian:** Open the root `big-data-knowledge-share` folder as a Vault. Follow the `[[wikilinks]]` throughout the markdown corpus to instantly jump horizontally across boundaries (e.g., Flink vs. Kafka time semantics).

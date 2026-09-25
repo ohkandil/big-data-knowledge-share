@@ -1,3 +1,22 @@
+---
+title: "Apache Hive: Data Guide"
+type: guide
+tags:
+  - apache-hive
+  - metastore
+  - hive-metastore
+  - batch
+  - sql-on-hadoop
+  - hiveql
+  - 02-data-guide
+aliases:
+  - "Hive Data Guide"
+  - "HiveQL"
+  - "Hive SerDe"
+layer: "Legacy Data Warehouse & Metastore"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Hive: Data Guide - Storage Layout, SerDe & Formats
 
 ## Table of Contents
@@ -98,3 +117,14 @@ Hive 3 introduced ACID transactional tables on HDFS:
 1. **Hive Storage Layout:** [https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+DDL)
 2. **Hive ORC File Format:** [https://cwiki.apache.org/confluence/display/Hive/LanguageManual+ORC](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+ORC)
 3. **Hive ACID Transactions:** [https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions](https://cwiki.apache.org/confluence/display/Hive/Hive+Transactions)
+
+
+---
+
+**Layer:** 🐝 Legacy Data Warehouse & Metastore  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Hive/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache Hive/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]

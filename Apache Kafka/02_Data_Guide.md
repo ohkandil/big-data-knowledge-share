@@ -1,3 +1,22 @@
+---
+title: "Apache Kafka: Data Guide"
+type: guide
+tags:
+  - apache-kafka
+  - messaging
+  - event-streaming
+  - distributed-log
+  - kraft
+  - 02-data-guide
+aliases:
+  - "Kafka Data Guide"
+  - "Kafka Topics"
+  - "Kafka Partitions"
+  - "Kafka Consumer Groups"
+layer: "Distributed Event Log"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Kafka: Data Guide - Topics, Partitions, Logs, and Consumer Groups
 
 ## Table of Contents
@@ -173,3 +192,16 @@ Common pitfalls are mistakes that you should avoid when using Kafka.
 3. **Kafka Connect Documentation:** [https://docs.confluent.io/current/kafka-connect/index.html](https://docs.confluent.io/current/kafka-connect/index.html)
 4. **Kafka Security Documentation:** [https://docs.confluent.io/current/kafka/security/index.html](https://docs.confluent.io/current/kafka/security/index.html)
 5. **Kafka Performance Tuning Documentation:** [https://docs.confluent.io/current/kafka/performance-tuning.html](https://docs.confluent.io/current/kafka/performance-tuning.html)
+
+
+---
+
+**Layer:** ⚫ Distributed Event Log  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Kafka/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache Kafka/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Flink/01_Overview|Apache Flink]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]]

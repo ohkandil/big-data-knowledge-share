@@ -1,3 +1,21 @@
+---
+title: "Apache Kafka: Performance Guide"
+type: guide
+tags:
+  - apache-kafka
+  - messaging
+  - event-streaming
+  - distributed-log
+  - kraft
+  - 04-performance-guide
+aliases:
+  - "Kafka Performance"
+  - "Kafka Tuning"
+  - "Kafka Producer Tuning"
+layer: "Distributed Event Log"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Kafka: Performance Tuning & Development Best Practices
 
 ## Table of Contents
@@ -222,3 +240,15 @@ Monitor via `DirectBufferPool` MBeans in JMX.
 8. **Streaming Systems Book:** Akidau, T., Chernyak, S., & Lax, R. (2018). *Streaming Systems.* O'Reilly Media.
 9. **Kafka-NiFi Integration Patterns:** https://nightlies.apache.org/flink/flink-docs-stable/docs/connectors/datastream/kafka/
 10. **Apache MiNiFi (Edge Agent):** https://nifi.apache.org/minifi/
+
+---
+
+**Layer:** ⚫ Distributed Event Log  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Kafka/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Flink/01_Overview|Apache Flink]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]]

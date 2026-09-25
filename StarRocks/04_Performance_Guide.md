@@ -1,3 +1,22 @@
+---
+title: "StarRocks: Performance Guide"
+type: guide
+tags:
+  - starrocks
+  - olap
+  - vectorized
+  - real-time-analytics
+  - materialized-views
+  - simd
+  - 04-performance-guide
+aliases:
+  - "StarRocks Performance"
+  - "StarRocks Tuning"
+  - "StarRocks MV"
+layer: "Real-Time OLAP Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # StarRocks: Performance Tuning & Production Optimization Guide
 
 ## Table of Contents
@@ -136,3 +155,16 @@ query_mem_limit = 64GB
 1. **StarRocks Performance Tuning:** [https://docs.starrocks.io/docs/administration/management/resource_management/](https://docs.starrocks.io/docs/administration/management/resource_management/)
 2. **Table Design Best Practices:** [https://docs.starrocks.io/docs/table_design/table_design_overview/](https://docs.starrocks.io/docs/table_design/table_design_overview/)
 3. **Query Profile Analysis:** [https://docs.starrocks.io/docs/administration/query_profile_overview/](https://docs.starrocks.io/docs/administration/query_profile_overview/)
+
+
+---
+
+**Layer:** ⭐ Real-Time OLAP Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[StarRocks/03_Architecture|Architecture]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

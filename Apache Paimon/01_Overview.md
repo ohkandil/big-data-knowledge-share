@@ -1,3 +1,21 @@
+---
+title: "Apache Paimon: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-paimon
+  - table-format
+  - lsm-tree
+  - streaming-lakehouse
+  - cdc
+  - changelog
+  - 01-overview
+aliases:
+  - "Paimon"
+  - "Apache Paimon Overview"
+layer: "Streaming Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Paimon: Architectural Overview & Foundational Concepts
 
 ```
@@ -188,3 +206,16 @@ Paimon can generate exact row-level change events during streaming reads:
 2. **Paimon GitHub Repository:** [https://github.com/apache/paimon](https://github.com/apache/paimon)
 3. **Paimon Streaming CDC Architecture:** [https://paimon.apache.org/docs/master/primary-key-table/cdc-ingestion/](https://paimon.apache.org/docs/master/primary-key-table/cdc-ingestion/)
 4. **Paimon LSM Table Design:** [https://paimon.apache.org/docs/master/concepts/basic-concepts/](https://paimon.apache.org/docs/master/concepts/basic-concepts/)
+
+
+---
+
+**Layer:** 🌊 Streaming Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache Paimon/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

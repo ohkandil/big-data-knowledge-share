@@ -1,3 +1,22 @@
+---
+title: "Apache Kafka: Architecture"
+type: architecture
+tags:
+  - apache-kafka
+  - messaging
+  - event-streaming
+  - distributed-log
+  - kraft
+  - 03-architecture
+aliases:
+  - "Kafka Architecture"
+  - "KRaft"
+  - "Kafka Brokers"
+  - "Kafka Zero-Copy"
+layer: "Distributed Event Log"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Kafka: Architecture & Deployment Topology
 
 ## Table of Contents
@@ -164,3 +183,16 @@ When a consumer requests data (and it is stored on disk instead of the Page Cach
 2. **Kafka Tiered Storage:** https://cwiki.apache.org/confluence/display/KAFKA/KIP-405%3A+Kafka+Tiered+Storage
 3. **Kafka Zero-Copy Mechanics:** https://developer.ibm.com/articles/j-zerocopy/
 4. **Strimzi (Kafka on K8s):** https://strimzi.io/
+
+
+---
+
+**Layer:** ⚫ Distributed Event Log  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Kafka/02_Data_Guide|Data Guide]]  |  → [[Apache Kafka/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Flink/01_Overview|Apache Flink]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]]

@@ -1,3 +1,22 @@
+---
+title: "Apache Hive: Performance Guide"
+type: guide
+tags:
+  - apache-hive
+  - metastore
+  - hive-metastore
+  - batch
+  - sql-on-hadoop
+  - hiveql
+  - 04-performance-guide
+aliases:
+  - "Hive Performance"
+  - "Hive Tuning"
+  - "Hive Vectorization"
+layer: "Legacy Data Warehouse & Metastore"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Hive: Performance Tuning & Metastore Optimization Guide
 
 ## Table of Contents
@@ -119,3 +138,14 @@ CALL system.snapshot('hive_db.orders', 'iceberg_db.orders');
 1. **Hive Performance Tuning Guide:** [https://cwiki.apache.org/confluence/display/Hive/Configuration+Properties](https://cwiki.apache.org/confluence/display/Hive/Configuration+Properties)
 2. **Hive on Tez Tuning:** [https://cwiki.apache.org/confluence/display/TEZ/How+to+Tune+Tez](https://cwiki.apache.org/confluence/display/TEZ/How+to+Tune+Tez)
 3. **Hive-to-Iceberg Migration:** [https://iceberg.apache.org/docs/latest/spark-procedures/#snapshot](https://iceberg.apache.org/docs/latest/spark-procedures/#snapshot)
+
+
+---
+
+**Layer:** 🐝 Legacy Data Warehouse & Metastore  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Hive/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]

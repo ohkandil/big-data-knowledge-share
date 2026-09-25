@@ -1,3 +1,22 @@
+---
+title: "Apache Iceberg: Architecture"
+type: architecture
+tags:
+  - apache-iceberg
+  - table-format
+  - lakehouse
+  - snapshot
+  - schema-evolution
+  - hidden-partitioning
+  - 03-architecture
+aliases:
+  - "Iceberg Architecture"
+  - "Iceberg Catalog"
+  - "Iceberg Metadata Tree"
+layer: "Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Iceberg: Architecture, Catalogs & Commit Protocol
 
 ## Table of Contents
@@ -100,3 +119,16 @@ Query planning executes in 3 rapid phases **without touching data files**:
 1. **Iceberg Catalog Specification:** [https://iceberg.apache.org/spec/#catalog-specification](https://iceberg.apache.org/spec/#catalog-specification)
 2. **Iceberg REST Open API Spec:** [https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml](https://github.com/apache/iceberg/blob/main/open-api/rest-catalog-open-api.yaml)
 3. **Iceberg Concurrency & Transactions:** [https://iceberg.apache.org/docs/latest/reliability/](https://iceberg.apache.org/docs/latest/reliability/)
+
+
+---
+
+**Layer:** 🧊 Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Iceberg/02_Data_Guide|Data Guide]]  |  → [[Apache Iceberg/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

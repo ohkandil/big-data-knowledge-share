@@ -1,3 +1,22 @@
+---
+title: "StarRocks: Data Guide"
+type: guide
+tags:
+  - starrocks
+  - olap
+  - vectorized
+  - real-time-analytics
+  - materialized-views
+  - simd
+  - 02-data-guide
+aliases:
+  - "StarRocks Data Guide"
+  - "StarRocks Ingestion"
+  - "StarRocks Loading"
+layer: "Real-Time OLAP Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # StarRocks: Data Processing, Table Models & Lakehouse Engine
 
 ## Table of Contents
@@ -167,3 +186,16 @@ When a user runs a query against the raw `iceberg_lake.sales.orders` table, the 
 1. **StarRocks Table Models:** [https://docs.starrocks.io/docs/table_design/table_types/](https://docs.starrocks.io/docs/table_design/table_types/)
 2. **StarRocks External Catalogs:** [https://docs.starrocks.io/docs/data_source/catalog/](https://docs.starrocks.io/docs/data_source/catalog/)
 3. **StarRocks Materialized Views:** [https://docs.starrocks.io/docs/using_starrocks/async_mv/](https://docs.starrocks.io/docs/using_starrocks/async_mv/)
+
+
+---
+
+**Layer:** ⭐ Real-Time OLAP Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[StarRocks/01_Overview|Overview & Foundational Concepts]]  |  → [[StarRocks/03_Architecture|Architecture]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

@@ -1,3 +1,22 @@
+---
+title: "Apache NiFi: Data Guide"
+type: guide
+tags:
+  - apache-nifi
+  - data-logistics
+  - etl
+  - ingestion
+  - dataflow
+  - flowfile
+  - 02-data-guide
+aliases:
+  - "NiFi Data Guide"
+  - "NiFi FlowFiles"
+  - "NiFi Record Processing"
+layer: "Data Logistics & Ingestion"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache NiFi: Data Guide - FlowFiles, Repositories, and Record Processing
 
 ## Table of Contents
@@ -105,3 +124,14 @@ The Provenance Repository is the core of NiFi's governance capabilities.
 3. **Control Provenance Size:** For massive throughput, tune `nifi.provenance.repository.max.storage.time` and `nifi.provenance.repository.max.storage.size` to prevent repository growth from filling mount points.
 4. **Avoid Heap Bloat:** Never store massive binary payloads as attributes. Attributes are in-memory. If a payload is >1MB, ensure it is treated as content, not an attribute.
 5. **Backpressure Sizing:** Size backpressure thresholds based on the time required to recover from a downstream system outage. If a target is down for 30 minutes, ensure the queue threshold holds at least 30 minutes worth of data.
+
+
+---
+
+**Layer:** 🟢 Data Logistics & Ingestion  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache NiFi/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache NiFi/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache Flink/01_Overview|Apache Flink]]

@@ -1,3 +1,20 @@
+---
+title: "Apache Flink: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-flink
+  - stream-processing
+  - stateful-computation
+  - event-time
+  - watermarks
+  - 01-overview
+aliases:
+  - "Flink"
+  - "Apache Flink Overview"
+layer: "Stream Processing"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Flink: Architectural Overview & Foundational Concepts
 
 ```
@@ -299,3 +316,16 @@ To handle out-of-order event streams deterministically, Flink uses **Watermarks*
 3. **Distributed Snapshotting Foundation:** Chandy, K. M., & Lamport, L. (1985). *"Distributed Snapshots: Determining Global States of Distributed Systems."* ACM Transactions on Computer Systems (TOCS), 3(1), 63–75.
 4. **Lightweight Asynchronous Snapshots for Distributed Dataflows:** Carbone, P., et al. (2017). *"State Management in Apache Flink: Consistent Stateful Distributed Stream Processing."* VLDB Endowment.
 5. **Streaming Systems (Book):** Akidau, T., Chernyak, S., & Lax, R. (O'Reilly Media, 2018). *The What, Where, When, and How of Large-Scale Data Processing.*
+
+
+---
+
+**Layer:** 🔴 Stream Processing  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache Flink/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]] · [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

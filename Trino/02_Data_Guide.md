@@ -1,3 +1,22 @@
+---
+title: "Trino: Data Guide"
+type: guide
+tags:
+  - trino
+  - federated-query
+  - presto
+  - sql
+  - olap
+  - connector-spi
+  - 02-data-guide
+aliases:
+  - "Trino Data Guide"
+  - "Trino Connectors"
+  - "Trino Splits"
+layer: "Federated Query Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # Trino: Data Processing & Engine Mechanics
 
 ## Table of Contents
@@ -154,3 +173,14 @@ FROM iceberg.sales.orders;
 1. **Trino Connectors Guide:** [https://trino.io/docs/current/connector.html](https://trino.io/docs/current/connector.html)
 2. **Trino Iceberg Connector:** [https://trino.io/docs/current/connector/iceberg.html](https://trino.io/docs/current/connector/iceberg.html)
 3. **Trino Type System & Functions:** [https://trino.io/docs/current/functions.html](https://trino.io/docs/current/functions.html)
+
+
+---
+
+**Layer:** 🔍 Federated Query Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Trino/01_Overview|Overview & Foundational Concepts]]  |  → [[Trino/03_Architecture|Architecture]]
+
+**Related technologies:** [[StarRocks/01_Overview|StarRocks]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Paimon/01_Overview|Apache Paimon]]

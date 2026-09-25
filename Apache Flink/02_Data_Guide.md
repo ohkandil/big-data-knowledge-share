@@ -1,3 +1,21 @@
+---
+title: "Apache Flink: Data Guide"
+type: guide
+tags:
+  - apache-flink
+  - stream-processing
+  - stateful-computation
+  - event-time
+  - watermarks
+  - 02-data-guide
+aliases:
+  - "Flink Data Guide"
+  - "Flink Time Semantics"
+  - "Flink State Backends"
+layer: "Stream Processing"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Flink: Data Processing Architecture & Engine Mechanics
 
 ## Table of Contents
@@ -226,3 +244,15 @@ Flink's reliability is built on its **checkpointing mechanism**, which provides:
 3. **Network Stack Deep Dive:** [https://flink.apache.org/2019/06/05/a-deep-dive-into-flinks-network-stack](https://flink.apache.org/2019/06/05/a-deep-dive-into-flinks-network-stack)
 4. **Event Time and Watermarks:** [https://nightlies.apache.org/flink/flink-docs-stable/docs/concepts/time/](https://nightlies.apache.org/flink/flink-docs-stable/docs/concepts/time/)
 5. **The Flink Paper (2015):** Carbone, P., et al. *"Apache Flink™: Stream and Batch Processing in a Single Engine."* IEEE Data Engineering Bulletin, 38(4), 28–38.
+
+---
+
+**Layer:** 🔴 Stream Processing  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Flink/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache Flink/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]] · [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

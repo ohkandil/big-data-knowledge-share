@@ -1,3 +1,22 @@
+---
+title: "Apache Paimon: Performance Guide"
+type: guide
+tags:
+  - apache-paimon
+  - table-format
+  - lsm-tree
+  - streaming-lakehouse
+  - cdc
+  - changelog
+  - 04-performance-guide
+aliases:
+  - "Paimon Performance"
+  - "Paimon Tuning"
+  - "Paimon Write Buffer"
+layer: "Streaming Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Paimon: Performance Tuning & Production Optimization Guide
 
 ## Table of Contents
@@ -88,3 +107,16 @@ Run dedicated compaction job:
 1. **Paimon Performance Tuning Guide:** [https://paimon.apache.org/docs/master/maintenance/configurations/](https://paimon.apache.org/docs/master/maintenance/configurations/)
 2. **Paimon Dedicated Compaction Action:** [https://paimon.apache.org/docs/master/maintenance/dedicated-compaction/](https://paimon.apache.org/docs/master/maintenance/dedicated-compaction/)
 3. **Paimon Flink Ingestion Optimization:** [https://paimon.apache.org/docs/master/primary-key-table/cdc-ingestion/](https://paimon.apache.org/docs/master/primary-key-table/cdc-ingestion/)
+
+
+---
+
+**Layer:** 🌊 Streaming Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Paimon/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

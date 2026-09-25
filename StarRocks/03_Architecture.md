@@ -1,3 +1,22 @@
+---
+title: "StarRocks: Architecture"
+type: architecture
+tags:
+  - starrocks
+  - olap
+  - vectorized
+  - real-time-analytics
+  - materialized-views
+  - simd
+  - 03-architecture
+aliases:
+  - "StarRocks Architecture"
+  - "StarRocks BE"
+  - "StarRocks FE"
+layer: "Real-Time OLAP Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # StarRocks: Runtime Architecture & Clustering Topology
 
 ## Table of Contents
@@ -96,3 +115,16 @@ When querying external data lakes (Iceberg/Paimon on S3):
 1. **StarRocks Shared-Data Architecture:** [https://docs.starrocks.io/docs/architecture/shared_data/](https://docs.starrocks.io/docs/architecture/shared_data/)
 2. **Pipeline Engine Internals:** [https://docs.starrocks.io/docs/architecture/pipeline_engine/](https://docs.starrocks.io/docs/architecture/pipeline_engine/)
 3. **StarRocks Data Cache Guide:** [https://docs.starrocks.io/docs/data_source/data_cache/](https://docs.starrocks.io/docs/data_source/data_cache/)
+
+
+---
+
+**Layer:** ⭐ Real-Time OLAP Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[StarRocks/02_Data_Guide|Data Guide]]  |  → [[StarRocks/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

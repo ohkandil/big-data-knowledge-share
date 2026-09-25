@@ -1,3 +1,21 @@
+---
+title: "dbt (data build tool): Performance Guide"
+type: guide
+tags:
+  - dbt
+  - sql-transformation
+  - data-modeling
+  - analytics-engineering
+  - dag
+  - 04-performance-guide
+aliases:
+  - "dbt Performance"
+  - "dbt Tuning"
+  - "dbt Incremental"
+layer: "SQL Transformation & Modeling"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # dbt (data build tool): Performance Optimization & Enterprise Best Practices
 
 ## Table of Contents
@@ -272,3 +290,14 @@ Use the open-source package **`dbt-artifacts`** to automatically load `manifest.
 2. **Slim CI Implementation:** [https://docs.getdbt.com/docs/deploy/continuous-integration](https://docs.getdbt.com/docs/deploy/continuous-integration)
 3. **dbt Microbatch Incremental Strategy:** [https://docs.getdbt.com/docs/build/microbatch](https://docs.getdbt.com/docs/build/microbatch)
 4. **dbt Project Structure Best Practices:** [https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview)
+
+
+---
+
+**Layer:** 🔧 SQL Transformation & Modeling  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[dbt/03_Architecture|Architecture]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]

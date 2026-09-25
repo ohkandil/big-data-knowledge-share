@@ -1,3 +1,22 @@
+---
+title: "Apache Iceberg: Data Guide"
+type: guide
+tags:
+  - apache-iceberg
+  - table-format
+  - lakehouse
+  - snapshot
+  - schema-evolution
+  - hidden-partitioning
+  - 02-data-guide
+aliases:
+  - "Iceberg Data Guide"
+  - "Iceberg Snapshots"
+  - "Iceberg Manifest"
+layer: "Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Iceberg: Data Guide - Storage Structure & Row-Level Operations
 
 ## Table of Contents
@@ -129,3 +148,16 @@ CALL system.rollback_to_snapshot('sales_db.orders', 8940192840192841);
 1. **Iceberg File Layout:** [https://iceberg.apache.org/spec/#table-metadata](https://iceberg.apache.org/spec/#table-metadata)
 2. **Iceberg Row-Level Updates:** [https://iceberg.apache.org/docs/latest/spark-writes/#row-level-deletes](https://iceberg.apache.org/docs/latest/spark-writes/#row-level-deletes)
 3. **Iceberg Schema Evolution:** [https://iceberg.apache.org/docs/latest/evolution/](https://iceberg.apache.org/docs/latest/evolution/)
+
+
+---
+
+**Layer:** 🧊 Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Iceberg/01_Overview|Overview & Foundational Concepts]]  |  → [[Apache Iceberg/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

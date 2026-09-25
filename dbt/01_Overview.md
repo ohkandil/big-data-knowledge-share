@@ -1,3 +1,21 @@
+---
+title: "dbt (data build tool): Overview & Foundational Concepts"
+type: overview
+tags:
+  - dbt
+  - sql-transformation
+  - data-modeling
+  - analytics-engineering
+  - dag
+  - 01-overview
+aliases:
+  - "dbt"
+  - "data build tool"
+  - "dbt Overview"
+layer: "SQL Transformation & Modeling"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # dbt (data build tool): Architectural Overview & Foundational Concepts
 
 ```
@@ -234,3 +252,14 @@ In the modern enterprise architecture, dbt occupies the **Semantic Transformatio
 2. **dbt Best Practices Guide:** [https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview](https://docs.getdbt.com/best-practices/how-we-structure/1-guide-overview)
 3. **The Analytics Engineering Roundup:** [https://roundup.getdbt.com/](https://roundup.getdbt.com/)
 4. **dbt Semantic Layer:** [https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl](https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl)
+
+
+---
+
+**Layer:** 🔧 SQL Transformation & Modeling  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[dbt/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]

@@ -1,3 +1,20 @@
+---
+title: "Apache Kafka: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-kafka
+  - messaging
+  - event-streaming
+  - distributed-log
+  - kraft
+  - 01-overview
+aliases:
+  - "Kafka"
+  - "Apache Kafka Overview"
+layer: "Distributed Event Log"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache Kafka: Architectural Overview & Foundational Concepts
 
 ```
@@ -298,3 +315,16 @@ Each partition has one **Leader** broker and zero or more **Follower** brokers:
 3. **Kafka: The Definitive Guide (Book):** Shapira, G., Palino, T., Sivaram, R., & Petty, K. (O'Reilly Media, 2nd Edition, 2021).
 4. **KIP-500: Replace ZooKeeper with a Self-Managed Metadata Quorum:** [https://cwiki.apache.org/confluence/display/KAFKA/KIP-500](https://cwiki.apache.org/confluence/display/KAFKA/KIP-500)
 5. **The Log: What every software engineer should know about real-time data's unifying abstraction:** Kreps, J. (LinkedIn Engineering Blog, 2013).
+
+
+---
+
+**Layer:** ⚫ Distributed Event Log  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache Kafka/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Flink/01_Overview|Apache Flink]] · [[Apache NiFi/01_Overview|Apache NiFi]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]
+
+**Core concepts:** [[Concepts/Event_Time_and_Watermarking|Event Time & Watermarking]]

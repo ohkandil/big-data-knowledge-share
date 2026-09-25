@@ -1,3 +1,22 @@
+---
+title: "Apache Iceberg: Performance Guide"
+type: guide
+tags:
+  - apache-iceberg
+  - table-format
+  - lakehouse
+  - snapshot
+  - schema-evolution
+  - hidden-partitioning
+  - 04-performance-guide
+aliases:
+  - "Iceberg Performance"
+  - "Iceberg Tuning"
+  - "Iceberg Compaction"
+layer: "Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Iceberg: Performance Tuning & Production Table Maintenance
 
 ## Table of Contents
@@ -124,3 +143,16 @@ CALL system.rewrite_data_files(
 1. **Iceberg Table Maintenance Guide:** [https://iceberg.apache.org/docs/latest/maintenance/](https://iceberg.apache.org/docs/latest/maintenance/)
 2. **Iceberg Spark Procedures:** [https://iceberg.apache.org/docs/latest/spark-procedures/](https://iceberg.apache.org/docs/latest/spark-procedures/)
 3. **Z-Ordering in Iceberg:** [https://iceberg.apache.org/docs/latest/spark-writes/#sorting-strategies](https://iceberg.apache.org/docs/latest/spark-writes/#sorting-strategies)
+
+
+---
+
+**Layer:** 🧊 Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Iceberg/03_Architecture|Architecture]]
+
+**Related technologies:** [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

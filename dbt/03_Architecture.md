@@ -1,3 +1,21 @@
+---
+title: "dbt (data build tool): Architecture"
+type: architecture
+tags:
+  - dbt
+  - sql-transformation
+  - data-modeling
+  - analytics-engineering
+  - dag
+  - 03-architecture
+aliases:
+  - "dbt Architecture"
+  - "dbt DAG"
+  - "dbt Manifest"
+layer: "SQL Transformation & Modeling"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # dbt (data build tool): Architecture & Execution Engine
 
 ## Table of Contents
@@ -184,3 +202,14 @@ BI tools (Tableau, PowerBI, Superset) query the Semantic Layer via JDBC/GraphQL,
 2. **dbt Adapters Documentation:** [https://docs.getdbt.com/docs/supported-data-platforms](https://docs.getdbt.com/docs/supported-data-platforms)
 3. **dbt Mesh Multi-Project Setup:** [https://docs.getdbt.com/docs/collaborate/govern/about-mesh](https://docs.getdbt.com/docs/collaborate/govern/about-mesh)
 4. **dbt Semantic Layer Architecture:** [https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl](https://docs.getdbt.com/docs/use-dbt-semantic-layer/dbt-sl)
+
+
+---
+
+**Layer:** 🔧 SQL Transformation & Modeling  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[dbt/02_Data_Guide|Data Guide]]  |  → [[dbt/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Iceberg/01_Overview|Apache Iceberg]]

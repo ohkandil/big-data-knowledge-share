@@ -1,3 +1,22 @@
+---
+title: "Apache Paimon: Architecture"
+type: architecture
+tags:
+  - apache-paimon
+  - table-format
+  - lsm-tree
+  - streaming-lakehouse
+  - cdc
+  - changelog
+  - 03-architecture
+aliases:
+  - "Paimon Architecture"
+  - "Paimon Compaction"
+  - "Paimon Bucket"
+layer: "Streaming Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Paimon: Architecture & Commit Lifecycle
 
 ## Table of Contents
@@ -88,3 +107,16 @@ Compaction merges small SST files across LSM levels:
 1. **Paimon File System Layout:** [https://paimon.apache.org/docs/master/concepts/file-layout/](https://paimon.apache.org/docs/master/concepts/file-layout/)
 2. **Paimon Flink Integration:** [https://paimon.apache.org/docs/master/engines/flink/](https://paimon.apache.org/docs/master/engines/flink/)
 3. **Paimon Standalone Compaction:** [https://paimon.apache.org/docs/master/primary-key-table/compaction/](https://paimon.apache.org/docs/master/primary-key-table/compaction/)
+
+
+---
+
+**Layer:** 🌊 Streaming Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Paimon/02_Data_Guide|Data Guide]]  |  → [[Apache Paimon/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Apache Kafka/01_Overview|Apache Kafka]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

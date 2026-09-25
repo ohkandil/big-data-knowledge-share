@@ -1,3 +1,22 @@
+---
+title: "Apache NiFi: Architecture"
+type: architecture
+tags:
+  - apache-nifi
+  - data-logistics
+  - etl
+  - ingestion
+  - dataflow
+  - flowfile
+  - 03-architecture
+aliases:
+  - "NiFi Architecture"
+  - "NiFi Cluster"
+  - "NiFi ZooKeeper"
+layer: "Data Logistics & Ingestion"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache NiFi: Architecture & Deployment Topology
 
 ## Table of Contents
@@ -237,3 +256,13 @@ NiFi provides a **Processor API** (Java) for building custom extensions:
 6. **Extending NiFi – Developer Guide:** https://nifi.apache.org/docs/nifi-docs/html/developer-guide.html
 7. **NiFi Helm Chart for Kubernetes:** https://github.com/helm/charts/tree/master/stable/nifi
 8. **Flink‑NiFi Integration Patterns:** https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#integration-with-stream-processing-engines
+
+---
+
+**Layer:** 🟢 Data Logistics & Ingestion  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache NiFi/02_Data_Guide|Data Guide]]  |  → [[Apache NiFi/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache Flink/01_Overview|Apache Flink]]

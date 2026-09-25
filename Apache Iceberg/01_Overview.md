@@ -1,3 +1,21 @@
+---
+title: "Apache Iceberg: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-iceberg
+  - table-format
+  - lakehouse
+  - snapshot
+  - schema-evolution
+  - hidden-partitioning
+  - 01-overview
+aliases:
+  - "Iceberg"
+  - "Apache Iceberg Overview"
+layer: "Lakehouse Table Format"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Iceberg: Architectural Overview & Foundational Concepts
 
 ```
@@ -237,3 +255,16 @@ Iceberg assigns an immutable, unique **Integer Column ID** (e.g., `id: 1`, `name
 2. **The Iceberg Table Spec:** [https://iceberg.apache.org/spec/](https://iceberg.apache.org/spec/)
 3. **Iceberg: The Definitive Guide (Book):** Blue, R., Weeks, D., & Thomas, J. (O'Reilly Media, 2024).
 4. **Project Nessie (Git-like Catalog):** [https://projectnessie.org/](https://projectnessie.org/)
+
+
+---
+
+**Layer:** 🧊 Lakehouse Table Format  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache Iceberg/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Paimon/01_Overview|Apache Paimon]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Flink/01_Overview|Apache Flink]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]
+
+**Core concepts:** [[Concepts/LSM_Trees_and_Compaction|LSM-Trees & Compaction]]

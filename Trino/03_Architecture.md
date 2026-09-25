@@ -1,3 +1,22 @@
+---
+title: "Trino: Architecture"
+type: architecture
+tags:
+  - trino
+  - federated-query
+  - presto
+  - sql
+  - olap
+  - connector-spi
+  - 03-architecture
+aliases:
+  - "Trino Architecture"
+  - "Trino Coordinator"
+  - "Trino Worker"
+layer: "Federated Query Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # Trino: Architecture & Distributed Execution Topology
 
 ## Table of Contents
@@ -132,3 +151,14 @@ With **Fault-Tolerant Execution (Exchange Spooling)**:
 1. **Trino Architecture Concepts:** [https://trino.io/docs/current/overview/concepts.html](https://trino.io/docs/current/overview/concepts.html)
 2. **Trino Cost-Based Optimizer:** [https://trino.io/docs/current/optimizer/cost-based-optimizations.html](https://trino.io/docs/current/optimizer/cost-based-optimizations.html)
 3. **Trino Fault-Tolerant Execution:** [https://trino.io/docs/current/admin/fault-tolerant-execution.html](https://trino.io/docs/current/admin/fault-tolerant-execution.html)
+
+
+---
+
+**Layer:** 🔍 Federated Query Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Trino/02_Data_Guide|Data Guide]]  |  → [[Trino/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[StarRocks/01_Overview|StarRocks]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Paimon/01_Overview|Apache Paimon]]

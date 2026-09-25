@@ -1,3 +1,22 @@
+---
+title: "Trino: Overview & Foundational Concepts"
+type: overview
+tags:
+  - trino
+  - federated-query
+  - presto
+  - sql
+  - olap
+  - connector-spi
+  - 01-overview
+aliases:
+  - "Trino"
+  - "Presto"
+  - "Trino Overview"
+layer: "Federated Query Engine"
+parent: "[[MOCs/MOC_Transformation_and_OLAP_Serving]]"
+---
+
 # Trino: Architectural Overview & Foundational Concepts
 
 ```
@@ -228,3 +247,14 @@ Trino's Coordinator distributes the Iceberg table scan across hundreds of worker
 2. **Trino: The Definitive Guide (Book):** Fuller, M., Moser, M., & Traverso, M. (O'Reilly Media, 2nd Edition, 2021).
 3. **The Original Presto Paper:** Sethi, R., et al. (2019). *"Presto: SQL on Everything."* Proceedings of the 2019 International Conference on Management of Data (SIGMOD '19).
 4. **Trino Architecture Overview:** [https://trino.io/docs/current/overview/concepts.html](https://trino.io/docs/current/overview/concepts.html)
+
+
+---
+
+**Layer:** 🔍 Federated Query Engine  
+**Parent MOC:** [[MOCs/MOC_Transformation_and_OLAP_Serving|MOC: Transformation & OLAP Serving]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Trino/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[StarRocks/01_Overview|StarRocks]] · [[dbt/01_Overview|dbt]] · [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Hive/01_Overview|Apache Hive]] · [[Apache Paimon/01_Overview|Apache Paimon]]

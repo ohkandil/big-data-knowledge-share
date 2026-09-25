@@ -1,3 +1,22 @@
+---
+title: "Apache Hive: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-hive
+  - metastore
+  - hive-metastore
+  - batch
+  - sql-on-hadoop
+  - hiveql
+  - 01-overview
+aliases:
+  - "Hive"
+  - "Apache Hive Overview"
+  - "Hive Metastore"
+layer: "Legacy Data Warehouse & Metastore"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Hive: Architectural Overview & Foundational Concepts
 
 ```
@@ -216,3 +235,14 @@ A **SerDe** allows Hive to interpret raw bytes from disk into structured table r
 2. **The Original Hive Paper:** Thusoo, A., et al. (2009). *"Hive - A Petabyte Scale Data Warehouse Using Hadoop."* IEEE ICDE.
 3. **Apache Tez Engine Architecture:** [https://tez.apache.org/](https://tez.apache.org/)
 4. **Apache ORC File Format Specification:** [https://orc.apache.org/specification/](https://orc.apache.org/specification/)
+
+
+---
+
+**Layer:** 🐝 Legacy Data Warehouse & Metastore  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache Hive/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]

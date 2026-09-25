@@ -1,3 +1,21 @@
+---
+title: "Apache NiFi: Overview & Foundational Concepts"
+type: overview
+tags:
+  - apache-nifi
+  - data-logistics
+  - etl
+  - ingestion
+  - dataflow
+  - flowfile
+  - 01-overview
+aliases:
+  - "NiFi"
+  - "Apache NiFi Overview"
+layer: "Data Logistics & Ingestion"
+parent: "[[MOCs/MOC_Stream_Processing_and_Logistics]]"
+---
+
 # Apache NiFi: Architectural Overview & Foundational Concepts
 
 ```
@@ -263,3 +281,14 @@ From the NiFi UI, data engineers can inspect the complete lineage tree of any re
 3. **Flow-Based Programming Paradigm:** Morrison, J. P. (2010). *Flow-Based Programming: A New Approach to Application Development.* CreateSpace.
 4. **Apache NiFi In-Depth Repository Guide:** [https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#system-properties](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#system-properties)
 5. **Data Provenance in NiFi:** [https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#data_provenance](https://nifi.apache.org/docs/nifi-docs/html/user-guide.html#data_provenance)
+
+
+---
+
+**Layer:** 🟢 Data Logistics & Ingestion  
+**Parent MOC:** [[MOCs/MOC_Stream_Processing_and_Logistics|MOC: Stream Processing & Logistics]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** → [[Apache NiFi/02_Data_Guide|Data Guide]]
+
+**Related technologies:** [[Apache Kafka/01_Overview|Apache Kafka]] · [[Apache Flink/01_Overview|Apache Flink]]

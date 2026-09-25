@@ -1,3 +1,22 @@
+---
+title: "Apache Hive: Architecture"
+type: architecture
+tags:
+  - apache-hive
+  - metastore
+  - hive-metastore
+  - batch
+  - sql-on-hadoop
+  - hiveql
+  - 03-architecture
+aliases:
+  - "Hive Architecture"
+  - "Hive Metastore Architecture"
+  - "HMS"
+layer: "Legacy Data Warehouse & Metastore"
+parent: "[[MOCs/MOC_Lakehouse_Storage_and_Table_Formats]]"
+---
+
 # Apache Hive: Architecture & Engine Topology
 
 ## Table of Contents
@@ -86,3 +105,14 @@ HMS stores metadata in relational tables:
 1. **Hive Architecture Design:** [https://cwiki.apache.org/confluence/display/Hive/Design](https://cwiki.apache.org/confluence/display/Hive/Design)
 2. **Hive Metastore Schema Internals:** [https://cwiki.apache.org/confluence/display/Hive/Hive+Schema](https://cwiki.apache.org/confluence/display/Hive/Hive+Schema)
 3. **Apache Tez Integration:** [https://tez.apache.org/](https://tez.apache.org/)
+
+
+---
+
+**Layer:** 🐝 Legacy Data Warehouse & Metastore  
+**Parent MOC:** [[MOCs/MOC_Lakehouse_Storage_and_Table_Formats|MOC: Lakehouse Storage & Table Formats]]  
+**Root:** [[MOCs/00_Root_Streamhouse_MOC|Streamhouse Knowledge Map]]
+
+**In this guide:** ← [[Apache Hive/02_Data_Guide|Data Guide]]  |  → [[Apache Hive/04_Performance_Guide|Performance Guide]]
+
+**Related technologies:** [[Apache Iceberg/01_Overview|Apache Iceberg]] · [[Apache Paimon/01_Overview|Apache Paimon]] · [[Trino/01_Overview|Trino]] · [[StarRocks/01_Overview|StarRocks]]
